@@ -1,65 +1,104 @@
 .web-color {
-    color: var(--iris, #4D5AE5);
+    color: #4D5AE5;
     font-family: Raleway;
     font-style: bold;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1,19;
 }
 .studio {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     font-family: Raleway;
     font-style: bold;
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1,19;
 }
-.adress {
-    color: var(--slate, #434455);
+.address {
+    color: #434455;
     font-family: Roboto;
     font-style: normal;
     font-size: 16;
     font-weight: 400;
-    line-height: 150%
+    line-height: 1,5;
 }
-.adress .link:hover {
-    color: red
+.address .link:hover {
+    color: #404bbf;
 }
 .menu {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1,5;
 }
 .menu .link:hover {
-    color: red
-}
-a {
-    text-decoration: none;
+    color: #404bbf;
 }
 .filter-button {
+    color: #4D5AE5;
+    background-color: #f4f4fd;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1,5;
     cursor: pointer;
 }
 .filter-button:hover {
-    color: red
+    color: #ffffff;
+    background-color: #404bbf;
 }
-h2 {
-    color: var(--navyblue, #2E2F42);
+.service {
+    color: #fff;
+    background-color: #4d5ae5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.service .link:hover {
+    color: #fff;
+    background-color: #404bbf;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+} 
+.demonstration {
+    color: #2E2F42);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1,1;
+}
+.title {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1,07;
+}
+.presentation {
+    color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1,2;
 }
-.Projectcards p {
-    color: var(--slate, #434455);
+.text {
+    color: #434455);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1,5;
 }
 body {
     font-family: "Roboto", sans-serif;
