@@ -37,9 +37,6 @@ body {
     font-weight: 500;
     line-height: 1.5;
 }
-.menu .link:hover, .link:focus {
-    color: var(--color-hover);
-}
 .contacts {
     color: var(--text-color);
     font-size: 16px;
