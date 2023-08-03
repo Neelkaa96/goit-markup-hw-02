@@ -31,7 +31,7 @@ body {
 .address .link:hover, .link:focus {
     color: var(--color-hover);
 }
-.menu {
+.link{
     color: var(--text-color);
     font-size: 16px;
     font-weight: 500;
