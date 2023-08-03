@@ -1,113 +1,99 @@
-.web-color {
-    color: #4D5AE5;
-    font-family: Raleway;
-    font-style: bold;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1,19;
-    text-decoration: none;
-}
-.studio {
-    color: #2E2F42;
-    font-family: Raleway;
-    font-style: bold;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1,19;
-}
-.address {
-    color: #434455;
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 16;
-    font-weight: 400;
-    line-height: 1,5;
-}
-.address .link:hover {
-    color: #404bbf;
-}
-.menu {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1,5;
-}
-.menu .link:hover {
-    color: #404bbf;
-}
-.filter-button {
-    color: #4D5AE5;
-    background-color: #f4f4fd;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1,5;
-    cursor: pointer;
-}
-.filter-button:hover {
-    color: #ffffff;
-    background-color: #404bbf;
-}
-.service {
-    color: #fff;
-    background-color: #4d5ae5;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-}
-.service .link:hover {
-    color: #fff;
-    background-color: #404bbf;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-} 
-.demonstration {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1,1;
-}
-.title {
-    color: #fff;
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1,07;
-}
-.presentation {
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1,2;
-}
-.text {
-    color: #434455;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1,5;
+:root {
+    --brand-color: #434455;
+    --color-hover: #404bbf;
+    --text-color: #2E2F42;
+    --button-color: #4D5AE5;
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: var#434455;
-    background-color: var#FFFFFF;
-    font-style: normal;
-    font-weight: 400;
+    color: var(--brand-color)
+    font-weiht 400
 }
-:root {
-    --brand-color: #434455;
+.web-color {
+    color: var(--button-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.studio {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+}
+.address {
+    font-size: 16;
+    line-height: 1.5;
+}
+.address .link:hover, .link:focus {
+    color: var(--color-hover);
+}
+.menu {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.menu .link:hover, .link:focus {
+    color: var(--color-hover);
+}
+.contacts {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.contacts .link:hover, .link:focus {
+    color: var(--color-hover);
+}
+.filter-button {
+    color: var(--button-color);
+    background-color: #f4f4fd;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.filter-button:hover, .link:focus {
+    color: #ffffff;
+    background-color: var(--color-hover);
+}
+.service {
+    color: #fff;
+    background-color: var(--button-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.service .link:hover, .link:focus {
+    color: #fff;
+    background-color: var(--color-hover);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+}
+.demonstration {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+.title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+}
+.presentation {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.text {
+    font-size: 16px;
+    line-height: 1.5;
 }
