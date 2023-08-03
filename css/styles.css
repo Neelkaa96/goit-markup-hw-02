@@ -28,7 +28,7 @@ body {
     font-size: 16;
     line-height: 1.5;
 }
-.address .link:hover, .link:focus {
+.address .address:hover, .address:focus {
     color: var(--color-hover);
 }
 .link{
@@ -43,7 +43,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
 }
-.contacts .link:hover, .link:focus {
+.contacts .contacts:hover, .contacts:focus {
     color: var(--color-hover);
 }
 .filter-button {
@@ -54,7 +54,7 @@ body {
     line-height: 1.5;
     cursor: pointer;
 }
-.filter-button:hover, .link:focus {
+.filter-button:hover, .filter-button:focus {
     color: #ffffff;
     background-color: var(--color-hover);
 }
@@ -66,7 +66,7 @@ body {
     line-height: 1.5;
     cursor: pointer;
 }
-.service .link:hover, .link:focus {
+.service .service:hover, .service:focus {
     color: #fff;
     background-color: var(--color-hover);
     font-size: 16px;
