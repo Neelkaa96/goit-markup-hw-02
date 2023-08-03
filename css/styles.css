@@ -28,7 +28,7 @@ body {
     font-size: 16;
     line-height: 1.5;
 }
-.address .address:hover, .address:focus {
+ .address:hover, .address:focus {
     color: var(--color-hover);
 }
 .link{
@@ -43,7 +43,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
 }
-.contacts .contacts:hover, .contacts:focus {
+ .contacts:hover, .contacts:focus {
     color: var(--color-hover);
 }
 .filter-button {
@@ -66,7 +66,7 @@ body {
     line-height: 1.5;
     cursor: pointer;
 }
-.service .service:hover, .service:focus {
+ .service:hover, .service:focus {
     color: #fff;
     background-color: var(--color-hover);
     font-size: 16px;
