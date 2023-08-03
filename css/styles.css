@@ -18,7 +18,7 @@ body {
     text-decoration: none;
 }
 .studio {
-    color: var(--text-color)
+    color: var(--text-color);
     font-family Raleway;
     font-size: 26px;
     font-weight: 700;
