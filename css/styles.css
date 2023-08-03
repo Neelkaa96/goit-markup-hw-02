@@ -6,8 +6,8 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--brand-color)
-    font-weiht 400
+    color: var(--brand-color);
+    font-weiht: 400
 }
 .web-color {
     color: var(--button-color);
