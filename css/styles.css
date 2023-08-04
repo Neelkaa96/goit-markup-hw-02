@@ -10,7 +10,7 @@ body {
     font-weight: 400
 }
 .web-color {
-    color: var(--button-color);
+    color: var(--text-color);
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -18,13 +18,14 @@ body {
     text-decoration: none;
 }
 .studio {
-    color: var(--text-color);
+    color: var(--button-color);
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.19;
 }
 .address {
+    color: var(br);
     font-size: 16;
     line-height: 1.5;
     font-style: normal;
