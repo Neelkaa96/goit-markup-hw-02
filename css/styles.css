@@ -29,6 +29,7 @@ body {
     font-size: 16;
     line-height: 1.5;
     font-style: normal;
+    text-decoration: none;
 }
  .address:hover, .address:focus {
     color: var(--color-hover);
