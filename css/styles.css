@@ -27,6 +27,7 @@ body {
 .address {
     font-size: 16;
     line-height: 1.5;
+    font-style: normal;
 }
  .address:hover, .address:focus {
     color: var(--color-hover);
@@ -37,16 +38,11 @@ body {
     font-weight: 500;
     line-height: 1.5;
 }
-.contacts {
-    color: var(--text-color);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-}
- .contacts:hover, .contacts:focus {
+ .link:hover, .link:focus {
     color: var(--color-hover);
 }
 .filter-button {
+    font-family: Roboto;
     color: var(--button-color);
     background-color: #f4f4fd;
     font-size: 16px;
