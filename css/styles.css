@@ -25,7 +25,7 @@ body {
     line-height: 1.19;
 }
 .address {
-    color: var(br);
+    color: var(--brand-color);
     font-size: 16;
     line-height: 1.5;
     font-style: normal;
@@ -38,6 +38,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    text-decoration: none;
 }
  .link:hover, .link:focus {
     color: var(--color-hover);
