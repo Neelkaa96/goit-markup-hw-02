@@ -33,14 +33,6 @@ body {
     line-height: 1.19;
     text-decoration: none;
 }
-.studio-footer {
-    color: var(--button-color);
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.19;
-    text-decoration: none;
-}
 .address {
     color: var(--brand-color);
     font-size: 16;
